@@ -37,6 +37,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F14828E6270B0E65004A5611 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F14828EA270B111C004A5611 /* Scenes */,
+				F14828EB270B1123004A5611 /* App */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F14828E7270B0E6C004A5611 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F14828E9270B10EC004A5611 /* Configs */,
+				F14828E8270B0EE0004A5611 /* Storyboards */,
+				F148D126270B097E000DEC86 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F14828E8270B0EE0004A5611 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F148D123270B0977000DEC86 /* Main.storyboard */,
+				F148D128270B097E000DEC86 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F14828E9270B10EC004A5611 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F148D12B270B097E000DEC86 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		F14828EA270B111C004A5611 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F148D121270B0977000DEC86 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F14828EB270B1123004A5611 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F148D11D270B0977000DEC86 /* AppDelegate.swift */,
+				F148D11F270B0977000DEC86 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		F148D111270B0977000DEC86 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +109,8 @@
 		F148D11C270B0977000DEC86 /* PyaterochkaExampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				F148D11D270B0977000DEC86 /* AppDelegate.swift */,
-				F148D11F270B0977000DEC86 /* SceneDelegate.swift */,
-				F148D121270B0977000DEC86 /* ViewController.swift */,
-				F148D123270B0977000DEC86 /* Main.storyboard */,
-				F148D126270B097E000DEC86 /* Assets.xcassets */,
-				F148D128270B097E000DEC86 /* LaunchScreen.storyboard */,
-				F148D12B270B097E000DEC86 /* Info.plist */,
+				F14828E7270B0E6C004A5611 /* Resources */,
+				F14828E6270B0E65004A5611 /* Source */,
 			);
 			path = PyaterochkaExampleProject;
 			sourceTree = "<group>";
@@ -287,7 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
