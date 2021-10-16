@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10BB475271613860089D97E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10BB474271613860089D97E /* MainTabBarController.swift */; };
 		F148D11E270B0977000DEC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148D11D270B0977000DEC86 /* AppDelegate.swift */; };
 		F148D120270B0977000DEC86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148D11F270B0977000DEC86 /* SceneDelegate.swift */; };
 		F148D122270B0977000DEC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148D121270B0977000DEC86 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10BB474271613860089D97E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F148D11A270B0977000DEC86 /* PyaterochkaExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyaterochkaExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F148D11D270B0977000DEC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F148D11F270B0977000DEC86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,11 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F10BB473271613430089D97E /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				F10BB474271613860089D97E /* MainTabBarController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
 		F14828E6270B0E65004A5611 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F14828EA270B111C004A5611 /* Scenes */,
 				F14828EB270B1123004A5611 /* App */,
+				F14828EA270B111C004A5611 /* Scenes */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -73,6 +83,7 @@
 		F14828EA270B111C004A5611 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F10BB473271613430089D97E /* MainController */,
 				F148D121270B0977000DEC86 /* ViewController.swift */,
 			);
 			path = Scenes;
@@ -183,6 +194,7 @@
 			files = (
 				F148D122270B0977000DEC86 /* ViewController.swift in Sources */,
 				F148D11E270B0977000DEC86 /* AppDelegate.swift in Sources */,
+				F10BB475271613860089D97E /* MainTabBarController.swift in Sources */,
 				F148D120270B0977000DEC86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
